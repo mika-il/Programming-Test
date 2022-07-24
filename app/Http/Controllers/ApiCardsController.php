@@ -32,7 +32,6 @@ class ApiCardsController extends Controller
         $deckCards = $this->cards->getDeckShuffled();
         for($i=0; $i < $players; $i++) {
             if($i > 0) {
-                //dd($deckCards, $cardToBeRemoved);
                 $deckCards = $this->cards->updateDeckCards($deckCards, $cardToBeRemoved);
             }
 
