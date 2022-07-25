@@ -10,3 +10,5 @@ given to n people randomly.
 4. Run php artisan serve
 
 <code>Note:</code> Make Sure Laravel bProject Run In Background (Testing: http://127.0.0.1:8000/).
+
+DEMO: https://playing-card-laravel.herokuapp.com/
